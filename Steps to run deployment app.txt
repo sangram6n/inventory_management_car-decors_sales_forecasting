@@ -1,0 +1,14 @@
+Step 1. Ensure wheather these dependecies are installed in your system-
+a) from statsmodels.tsa.holtwinters import ExponentialSmoothing
+b) import statsmodels.api as sm (For SARIMA)
+c) import pickle (For pickle files)
+d) import streamlit (pip install streamlit)- For deployment
+Step 2. Ensure the correct file location of your csv file in deployment code. 
+Step 3. Put all pickle files and deployment code(python file) in a single folder
+Step 4. Open command prompt give your file location(where you have stored all pickle files alongwith deployment code) and press Enter.
+Step 5. Give command streamlit run <deployment file name with extention> and press Enter.
+ A local host is created and app will run at your default browser.
+For first time Streamlit community ask for you email id for registration purpose.
+
+Note- 1) We are using python version 3.8.5 and Anaconda navigator 2020.11.0. if there is version mismatch may these pickle files are not supported to your local system.
+      2) Need to be maintain version control for better performance.	
